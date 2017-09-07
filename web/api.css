@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : sep 6, 2017, 11:04:39 p.m.
+    Author     : Nicolás
+*/
+
+
+body{
+    background: url(https://static.pexels.com/photos/17598/pexels-photo.jpg) no-repeat center center fixed; ;
+    background-size: cover;
+    
+    color: #FFFFFF;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: #FFFFFF;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+a{
+    color: #FFFFFF;
+}

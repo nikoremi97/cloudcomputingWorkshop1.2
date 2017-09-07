@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html >
+    <head>
+        <title>AngularJS client</title>
+        <link rel="stylesheet" type="text/css" href="api.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script type="text/javascript" src="todo.js"></script>
+    </head>
+    <!--onload="init()"-->
+    <body >
+
+
+        <h1>Webclient AngularJS</h1>
+        <p>usé como referencia  
+        <a href="https://examples.javacodegeeks.com/desktop-java/ide/eclipse/eclipse-ide-angularjs-tutorial/">este enlace</a></p>
+
+        <div ng-app="myApp" ng-controller="listController">
+
+            <ul ng-repeat="equipo in equipos">
+                <li>{{equipo.nombre}}</li>
+                <li>{{equipo.fundacion}}</li>
+                <li>{{equipo.titulos}}</li>
+            </ul>
+            
+        </div>
+    </body>
+</html>
